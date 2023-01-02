@@ -30,6 +30,7 @@ jobs:
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
+
     - name: Flex ACR bicep
       run: |
         az deployment group create \
