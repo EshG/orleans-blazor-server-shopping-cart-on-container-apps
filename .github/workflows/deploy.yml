@@ -9,7 +9,7 @@ env:
   UNIQUE_APP_NAME: orleanscart
   SILO_IMAGE_NAME: orleanscart-silo
   AZURE_RESOURCE_GROUP_NAME: Default-Web-WestEurope
-  AZURE_RESOURCE_GROUP_LOCATION: europe
+  AZURE_RESOURCE_GROUP_LOCATION: westeurope
 
 jobs:
   build-and-deploy:
